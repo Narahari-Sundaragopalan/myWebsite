@@ -1,0 +1,152 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  background: #f5f5f5;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #444;
+  overflow-x: hidden;
+  position: relative
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 500
+}
+
+.header {
+  background: #00bcd4;
+  color: #fff;
+}
+
+.header .top-bar {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 120px;
+}
+
+.btn {
+  background: #008fa1;
+}
+
+.fab {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.fab:hover {
+  color: #000;
+}
+
+/* Profile Image */
+.header .profile-image {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  margin-top: -200px;
+}
+/* Profile Image */
+
+/* Intro */
+.header .intro {
+  background: #00a5bb;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  font-size: 16px;
+}
+/* Intro */
+
+/* Contact Info */
+.header .contact-info {
+  background: #008fa1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.header .contact-info li {
+  margin-right: 30px;
+}
+
+.header .contact-info li a {
+  color :rgba(255, 255, 255, 0.8);
+}
+
+.header .contact-info li a:hover {
+  text-decoration: underline;
+}
+/* Contact Info */
+
+.header .contact-info ul {
+  margin-bottom: 0;
+}
+
+
+.page-nav-space-holder {
+  height: 60px;
+  position: relative;
+}
+
+.page-nav-wrapper {
+  background: #007888;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  -webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.page-nav-wrapper.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: #00BCD4
+}
+
+.page-nav-wrapper a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.page-nav-wrapper .page-nav {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.page-nav-wrapper .page-nav li {
+  margin-right: 30px;
+  display: inline-block;
+  background: none;
+}
+
+.page-nav-wrapper .page-nav li:hover,.page-nav-wrapper .page-nav li:active {
+  background: none
+}
+
+.page-nav-wrapper .page-nav li a {
+  color: rgba(255,255,255,0.6);
+  padding: inherit;
+}
+
+.page-nav-wrapper .page-nav li a:hover {
+  color: #fff
+}
+
+.page-nav-wrapper .page-nav li a:hover,.page-nav-wrapper .page-nav li a:active,.page-nav-wrapper .page-nav li a:focus {
+  background: none
+}
+
+.page-nav-wrapper .page-nav li a.active {
+  color: #fff;
+  background: none
+}
+
+.page-nav-wrapper .page-nav li:last-child {
+  margin-right: 0
+}
