@@ -14,19 +14,50 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 500
 }
 
-.header {
-  background: #00bcd4;
-  color: #fff;
+a {
+  color: #00BCD4;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out
 }
 
-.header .top-bar {
-  position: relative;
-  padding-top: 15px;
-  padding-bottom: 120px;
+a:hover {
+  text-decoration: underline;
+  color: #007888;
 }
 
-.btn {
+a:focus {
+  text-decoration: none
+}
+
+p {
+  line-height: 1.5
+}
+
+.btn,a.btn {
   background: #008fa1;
+  color: #fff;
+  padding: 8px 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.btn:hover,a.btn:hover {
+  color: #fff;
+  background: #00a5bb
 }
 
 .fab {
@@ -37,6 +68,96 @@ h1,h2,h3,h4,h5,h6 {
 .fab:hover {
   color: #000;
 }
+
+/* Header */
+.header {
+  background: #00bcd4;
+  color: #fff;
+}
+
+.header a {
+  color: #fff;
+}
+
+.header .top-bar {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 120px;
+}
+
+.header .social {
+  margin-bottom: 0
+}
+
+.header .actions {
+  position: absolute;
+  right: 15px;
+  top: 15px
+}
+
+.header .actions .fa {
+  margin-right: 5px
+}
+
+.header .actions a {
+  margin-right: 10px;
+  color: #fff
+}
+
+.header .actions a:last-child {
+  margin-right: 0
+}
+
+.header .name {
+  font-size: 48px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px
+}
+
+.header .title {
+  font-size: 28px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 30px
+}
+
+.header .profile {
+  max-width: 800px;
+  margin: 0 auto
+}
+
+.header .contact-info {
+  background: #008fa1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px
+}
+
+.header .contact-info ul {
+  margin-bottom: 0
+}
+
+.header .contact-info li {
+  margin-right: 30px;
+  color: rgba(255,255,255,0.8);
+}
+
+.header .contact-info li a {
+  color: rgba(255,255,255,0.8)
+}
+
+.header .contact-info li a:hover {
+  color: #fff;
+}
+
+.header .contact-info li:last-child {
+  margin-right: 0
+}
+
+.header .contact-info li .fa {
+  margin-right: 10px
+}
+/* Header */
 
 /* Profile Image */
 .header .profile-image {
@@ -81,7 +202,7 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 0;
 }
 
-
+/* Page Navigation */
 .page-nav-space-holder {
   height: 60px;
   position: relative;
@@ -150,3 +271,4 @@ h1,h2,h3,h4,h5,h6 {
 .page-nav-wrapper .page-nav li:last-child {
   margin-right: 0
 }
+/* Page Navigation */
