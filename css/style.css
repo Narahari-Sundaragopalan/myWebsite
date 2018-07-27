@@ -416,3 +416,27 @@ strong {
   color: #666
 }
 /* Timeline */
+
+.summary-section .intro {
+  position: relative;
+  padding: 30px;
+  font-size: 16px;
+  color: #666
+}
+
+.summary-section .intro p {
+  margin-bottom: 15px
+}
+
+.summary-section .service-list {
+  margin-left: 30px;
+  margin-bottom: 15px
+}
+
+.summary-section .service-list li {
+  margin-bottom: 15px
+}
+
+.summary-section .service-list li .fas {
+  margin-right: 10px;
+}
