@@ -485,3 +485,26 @@ strong {
 .education-section .desc {
   color: #666
 }
+
+.skills-section .skill-tag {
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  padding: 6px 10px;
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid #f5f5f5;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.skills-section .skill-tag-header {
+  background: #00BCD4;
+  /* -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  border: 1px solid #f5f5f5; */
+  color: #f5f5f5;
+  width: 160px;
+}
