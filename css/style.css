@@ -417,6 +417,7 @@ strong {
 }
 /* Timeline */
 
+/* Summary */
 .summary-section .intro {
   position: relative;
   padding: 30px;
@@ -434,9 +435,53 @@ strong {
 }
 
 .summary-section .service-list li {
-  margin-bottom: 15px
+  margin-bottom: 15px;
 }
 
 .summary-section .service-list li .fas {
   margin-right: 10px;
+}
+/* Summary */
+
+/* Education Section */
+.education-section .item {
+  margin-bottom: 45px
+}
+
+.education-section .item-inner {
+  padding: 0 30px
+}
+
+.education-section .degree {
+  font-size: 18px;
+  color: #00BCD4;
+  margin-top: 0;
+  margin-bottom: 0px
+}
+
+.education-section .education-body {
+  font-weight: 500;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 300
+}
+
+.education-section .time {
+  color: #8a8a8a;
+  margin-bottom: 15px
+}
+
+.education-section .gpa {
+  color: #333333;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.education-section .course-work {
+  color: #333333;
+  font-size: 14px;
+}
+
+.education-section .desc {
+  color: #666
 }
